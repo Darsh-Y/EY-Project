@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - ElevateEd</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <div class="nav-container">
+      <div class="nav-left">
+        <a href="#">
+          <img src="/assets/logo.jpg" alt="logo" />
+        </a>
+      </div>
+      <div class="nav-right">
+        <a href="#" class="nav-items">About</a>
+        <a href="#" class="nav-items">Contact</a>
+        <a href="#" class="nav-items">Blog</a>
+        <a href="#" class="nav-items">Courses</a>
+        <div class="ctn">
+          <button class="btn" type="button" aria-label="Login">Login</button>
+          <button class="btn" type="button" aria-label="Signup">Signup</button>
+        </div>
+      </div>
+      <div class="hamburger-menu" onclick="toggleMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+
+    <!-- Login Form -->
+    <div class="login-container">
+      <form action="#" method="POST">
+        <h2>Log In</h2>
+        <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+        <input type="email" placeholder="Email" class="inputs" required />
+        <input type="password" placeholder="Password" class="inputs" required />
+        <a href="forgot-password.html" class="forgot-password">Forgot password?</a>
+        <button type="submit" class="btn btn-submit">Log In</button>
+      </form>
+    </div>
+
+     <!-- Footer -->
+     <div class="footer-container">
+      <div class="container">
+        <div class="footer">
+          <!-- Top Section -->
+          <div class="footer-top">
+            <a href="https://github.com/Darshan-Yavagal/EY-Project">
+              <img src="/assets/logo.jpg" alt="ElevateEd Logo" />
+            </a>
+            <form action="#" class="footer-form">
+              <input
+                type="text"
+                placeholder="Enter your email address"
+                class="footer-input"
+              />
+              <button type="submit" class=" footer-submit submit-button">
+                Subscribe
+              </button>
+            </form>
+          </div>
+
+          <!-- Middle Section -->
+          <div class="footer-middle">
+            <ul class="footer-menu">
+              <li><a href="#">Courses</a></li>
+              <li><a href="#">Career</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+            <div class="social-media">
+              <a
+                href="https://github.com/Darshan-Yavagal/EY-Project"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Bottom Section -->
+          <div class="footer-bottom">
+            <div class="bottom-left">
+              <a href="#">Privacy and Policy</a>
+              <a href="#">Licenses</a>
+            </div>
+            <div class="bottom-right">
+              <p><b>ElevateEd</b> by Triplespark</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
-    <link rel="stylesheet" href="LoginPage.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="login-container">
+        <form action="#" method="POST"></form>
         <h2>Log in</h2>
         <p>Don't have an account? <a href="SignUpLink">Sign Up</a></p>
-        <form action="#" method="POST">
-            <input type="email" placeholder="Email" required>
-            <input type="password" placeholder="Password" required>
+            <input type="email" placeholder="Email" class="inputs" required>
+            <input type="password" placeholder="Password" class="inputs" required>
             <a href="ForgetPasswordLink" class="forgot-password">Forgot password?</a>
             <button type="submit">Log In</button>
         </form>
